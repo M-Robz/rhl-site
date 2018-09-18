@@ -1,0 +1,1576 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>RHL Roto Standings</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="banner.js"></script>
+
+<style>
+  tr:first-child td:first-child {
+    vertical-align: middle;
+  }
+  table.standings td:nth-child(3),
+  table.averages td:nth-child(2) {
+    text-align: left;
+  }
+  table.standings tr:nth-child(1) td:nth-child(3),
+  table.standings tr:nth-child(2) td:nth-child(3),
+  table.averages tr:nth-child(1) td:nth-child(2),
+  table.averages tr:nth-child(2) td:nth-child(2) {
+    text-align: center;
+  }
+  table.standings td:nth-child(13),
+  table.standings td:nth-child(16) {
+    font-weight: bold;
+    background-color: #e0e0e0;
+  }
+  table.averages tr:nth-child(13),
+  table.averages tr:nth-child(14),
+  table.averages tr:nth-child(15) {
+    font-weight: bold;
+  }
+  table.averages tr:nth-child(13) td:first-child,
+  table.averages tr:nth-child(14) td:first-child,
+  table.averages tr:nth-child(15) td:first-child {
+    text-align: left;
+  }
+  .green { color: green; }
+  .red { color: red; }
+  .black { color: black; }
+</style>
+</head>
+
+<body>
+
+<!-- Banner -->
+<script>writeBanner();</script>
+<!-- End Banner -->
+
+<!-- Content -->
+<div class="content">
+
+<h1>RHL Roto Standings</h1>
+<h2>2017-18</h2>
+
+<p><em>NOTE: Click <a href="roto-exp.html">here</a> for a detailed explanation of how the standings are calculated.</em></p>
+
+<!-- Begin Week 20 -->
+<div id="wk20" class="rotoStats visible">
+
+<p class="wkMenu">Week 20 | <a href="javascript:switchTab('wk15');">Week 15</a> | <a href="javascript:switchTab('wk10');">Week 10</a></p>
+
+<table class="withGrid roto standings">
+  <tr class="head">
+    <td colspan="3" rowspan="2">Final Standings<br>(through Week 20)</td>
+    <td colspan="9">Percent chance of winning category</td>
+    <td rowspan="2">Total*<br>(# cats)</td>
+    <td rowspan="2">Wk 15</td>
+    <td rowspan="2">Change</td>
+    <td rowspan="2">Average**<br>(win%)</td>
+    <td rowspan="2">H2H%</td>
+    <td rowspan="2">Roto&ndash;H2H</td>
+  </tr>
+  <tr class="head">
+    <td>G</td>
+    <td>A</td>
+    <td>+/-</td>
+    <td>PPP</td>
+    <td>HIT</td>
+    <td>BLK</td>
+    <td>W</td>
+    <td>GAA</td>
+    <td>SV%</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td class="logoCell"><img src="images/blue_wings20x20.jpg"></td>
+    <td>Dallas Blue Wings <span class="green">&#8593;</span></td>
+    <td>74</td>
+    <td>77</td>
+    <td>63</td>
+    <td>72</td>
+    <td>44</td>
+    <td>39</td>
+    <td>58</td>
+    <td>46</td>
+    <td>51</td>
+    <td>5.25</td>
+    <td>5.21</td>
+    <td><span class="green">+0.04</span></td>
+    <td>58</td>
+    <td>57</td>
+    <td>+1</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td class="logoCell"><img src="images/ramblers_20.png"></td>
+    <td>Ramblers <span class="red">&#8595;</span></td>
+    <td>59</td>
+    <td>64</td>
+    <td>54</td>
+    <td>52</td>
+    <td>53</td>
+    <td>70</td>
+    <td>51</td>
+    <td>60</td>
+    <td>61</td>
+    <td>5.23</td>
+    <td>5.40</td>
+    <td><span class="red">-0.17</span></td>
+    <td>58</td>
+    <td>48</td>
+    <td>+10</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td class="logoCell"><img src="images/set-your-lineup_20.jpg"></td>
+    <td>Set Your Lineup <span class="red">&#8595;</span></td>
+    <td>64</td>
+    <td>65</td>
+    <td>47</td>
+    <td>72</td>
+    <td>52</td>
+    <td>53</td>
+    <td>53</td>
+    <td>56</td>
+    <td>56</td>
+    <td>5.20</td>
+    <td>5.37</td>
+    <td><span class="red">-0.17</span></td>
+    <td>58</td>
+    <td>65</td>
+    <td>-7</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td class="logoCell"><img src="images/zambonis20x20.jpg"></td>
+    <td>Zambonis</td>
+    <td>53</td>
+    <td>43</td>
+    <td>57</td>
+    <td>47</td>
+    <td>83</td>
+    <td>49</td>
+    <td>56</td>
+    <td>55</td>
+    <td>46</td>
+    <td>4.88</td>
+    <td>5.03</td>
+    <td><span class="red">-0.15</span></td>
+    <td>54</td>
+    <td>59</td>
+    <td>-5</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td class="logoCell"><img src="images/abominables_20.jpg"></td>
+    <td>Abominables <span class="green">&#8593;</span></td>
+    <td>52</td>
+    <td>58</td>
+    <td>55</td>
+    <td>59</td>
+    <td>30</td>
+    <td>39</td>
+    <td>66</td>
+    <td>55</td>
+    <td>54</td>
+    <td>4.67</td>
+    <td>4.52</td>
+    <td><span class="green">+0.15</span></td>
+    <td>52</td>
+    <td>50</td>
+    <td>+2</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td class="logoCell"><img src="images/habs-suck2_20.jpg"></td>
+    <td>Habs Suck <span class="red">&#8595;</span></td>
+    <td>53</td>
+    <td>43</td>
+    <td>45</td>
+    <td>53</td>
+    <td>63</td>
+    <td>71</td>
+    <td>41</td>
+    <td>49</td>
+    <td>48</td>
+    <td>4.65</td>
+    <td>4.78</td>
+    <td><span class="red">-0.13</span></td>
+    <td>52</td>
+    <td>53</td>
+    <td>-1</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td class="logoCell"><img src="images/flames4ever_20.jpg"></td>
+    <td>FLAMES4EVER <span class="green">&#8593;</span></td>
+    <td>46</td>
+    <td>49</td>
+    <td>36</td>
+    <td>56</td>
+    <td>24</td>
+    <td>48</td>
+    <td>40</td>
+    <td>51</td>
+    <td>50</td>
+    <td>3.99</td>
+    <td>3.73</td>
+    <td><span class="green">+0.26</span></td>
+    <td>44</td>
+    <td>47</td>
+    <td>-3</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td class="logoCell"><img src="images/boysinblue_20.jpg"></td>
+    <td>ComeOnYouBoysInBlue <span class="red">&#8595;</span></td>
+    <td>39</td>
+    <td>26</td>
+    <td>50</td>
+    <td>29</td>
+    <td>46</td>
+    <td>38</td>
+    <td>61</td>
+    <td>48</td>
+    <td>54</td>
+    <td>3.91</td>
+    <td>4.07</td>
+    <td><span class="red">-0.16</span></td>
+    <td>43</td>
+    <td>39</td>
+    <td>+4</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td class="logoCell"><img src="images/mcdavid2_20.jpg"></td>
+    <td>Life With McDavid <span class="green">&#8593;</span></td>
+    <td>35</td>
+    <td>40</td>
+    <td>51</td>
+    <td>21</td>
+    <td>58</td>
+    <td>45</td>
+    <td>44</td>
+    <td>43</td>
+    <td>42</td>
+    <td>3.78</td>
+    <td>3.38</td>
+    <td><span class="green">+0.4</span></td>
+    <td>42</td>
+    <td>45</td>
+    <td>-3</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td class="logoCell"><img src="images/clowning_20.jpg"></td>
+    <td>Just Clowning Around <span class="red">&#8595;</span></td>
+    <td>28</td>
+    <td>36</td>
+    <td>43</td>
+    <td>37</td>
+    <td>47</td>
+    <td>49</td>
+    <td>30</td>
+    <td>38</td>
+    <td>37</td>
+    <td>3.45</td>
+    <td>3.49</td>
+    <td><span class="red">-0.04</span></td>
+    <td>38</td>
+    <td>38</td>
+    <td>0</td>
+  </tr>
+</table>
+
+<table class="withGrid roto averages">
+  <tr class="head">
+    <td colspan="2" rowspan="2">Averages per Week<sup>&#8224;</sup></td>
+    <td colspan="9">Season</td>
+    <td colspan="9">Weeks 16 &ndash; 20</td>
+  </tr>
+  <tr class="head">
+    <td>G</td>
+    <td>A</td>
+    <td>+/-</td>
+    <td>PPP</td>
+    <td>HIT</td>
+    <td>BLK</td>
+    <td>W</td>
+    <td>GAA</td>
+    <td>SV%</td>
+    <td>G</td>
+    <td>A</td>
+    <td>+/-</td>
+    <td>PPP</td>
+    <td>HIT</td>
+    <td>BLK</td>
+    <td>W</td>
+    <td>GAA</td>
+    <td>SV%</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/abominables_20.jpg"></td>
+    <td>Abominables</td>
+    <td>15.0</td>
+    <td>26.9</td>
+    <td>3.4</td>
+    <td>13.3</td>
+    <td>56.6</td>
+    <td>48.1</td>
+    <td>4.2</td>
+    <td>2.57</td>
+    <td>.918</td>
+    <td>14.3</td>
+    <td>28.7</td>
+    <td>7.2</td>
+    <td>12.7</td>
+    <td>60.2</td>
+    <td>51.1</td>
+    <td>4.8</td>
+    <td>2.59</td>
+    <td>.921</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/boysinblue_20.jpg"></td>
+    <td>ComeOnYouBoysInBlue</td>
+    <td>13.1</td>
+    <td>20.0</td>
+    <td>1.8</td>
+    <td>8.8</td>
+    <td>64.8</td>
+    <td>48.2</td>
+    <td>4.0</td>
+    <td>2.71</td>
+    <td>.917</td>
+    <td>16.5</td>
+    <td>19.7</td>
+    <td>-1.1</td>
+    <td>8.5</td>
+    <td>64.6</td>
+    <td>44.0</td>
+    <td>3.7</td>
+    <td>2.94</td>
+    <td>.911</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/blue_wings20x20.jpg"></td>
+    <td>Dallas Blue Wings</td>
+    <td>18.9</td>
+    <td>31.0</td>
+    <td>5.6</td>
+    <td>14.9</td>
+    <td>64.3</td>
+    <td>48.3</td>
+    <td>3.8</td>
+    <td>2.83</td>
+    <td>.913</td>
+    <td>22.7</td>
+    <td>31.2</td>
+    <td>2.3</td>
+    <td>16.4</td>
+    <td>68.7</td>
+    <td>51.8</td>
+    <td>4.0</td>
+    <td>2.94</td>
+    <td>.912</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/flames4ever_20.jpg"></td>
+    <td>FLAMES4EVER</td>
+    <td>14.0</td>
+    <td>24.9</td>
+    <td>-2.9</td>
+    <td>12.6</td>
+    <td>53.6</td>
+    <td>51.8</td>
+    <td>2.9</td>
+    <td>2.72</td>
+    <td>.913</td>
+    <td>17.6</td>
+    <td>27.6</td>
+    <td>4.9</td>
+    <td>13.2</td>
+    <td>56.2</td>
+    <td>53.7</td>
+    <td>2.6</td>
+    <td>2.89</td>
+    <td>.901</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/habs-suck2_20.jpg"></td>
+    <td>Habs suck</td>
+    <td>15.1</td>
+    <td>23.7</td>
+    <td>0.6</td>
+    <td>12.2</td>
+    <td>74.3</td>
+    <td>62.3</td>
+    <td>3.0</td>
+    <td>2.83</td>
+    <td>.910</td>
+    <td>18.3</td>
+    <td>26.6</td>
+    <td>-4.9</td>
+    <td>15.7</td>
+    <td>71.8</td>
+    <td>62.3</td>
+    <td>2.6</td>
+    <td>3.14</td>
+    <td>.902</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/clowning_20.jpg"></td>
+    <td>Just Clowning Around</td>
+    <td>11.7</td>
+    <td>22.1</td>
+    <td>-0.3</td>
+    <td>9.5</td>
+    <td>66.0</td>
+    <td>52.0</td>
+    <td>2.5</td>
+    <td>2.94</td>
+    <td>.907</td>
+    <td>11.3</td>
+    <td>22.9</td>
+    <td>-0.9</td>
+    <td>11.3</td>
+    <td>66.9</td>
+    <td>50.5</td>
+    <td>2.6</td>
+    <td>2.86</td>
+    <td>.910</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/mcdavid2_20.jpg"></td>
+    <td>Life With McDavid</td>
+    <td>12.5</td>
+    <td>23.2</td>
+    <td>2.1</td>
+    <td>7.7</td>
+    <td>73.3</td>
+    <td>50.5</td>
+    <td>3.1</td>
+    <td>2.72</td>
+    <td>.913</td>
+    <td>15.5</td>
+    <td>23.4</td>
+    <td>-1.4</td>
+    <td>8.1</td>
+    <td>82.7</td>
+    <td>53.7</td>
+    <td>4.9</td>
+    <td>2.73</td>
+    <td>.915</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/ramblers_20.png"></td>
+    <td>Ramblers</td>
+    <td>15.9</td>
+    <td>28.2</td>
+    <td>3.2</td>
+    <td>11.9</td>
+    <td>70.0</td>
+    <td>63.5</td>
+    <td>3.5</td>
+    <td>2.55</td>
+    <td>.920</td>
+    <td>13.4</td>
+    <td>29.0</td>
+    <td>2.5</td>
+    <td>10.6</td>
+    <td>89.3</td>
+    <td>65.0</td>
+    <td>3.3</td>
+    <td>2.74</td>
+    <td>.915</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/set-your-lineup_20.jpg"></td>
+    <td>Set Your Lineup</td>
+    <td>16.6</td>
+    <td>28.7</td>
+    <td>0.9</td>
+    <td>15.2</td>
+    <td>69.1</td>
+    <td>53.6</td>
+    <td>3.6</td>
+    <td>2.56</td>
+    <td>.918</td>
+    <td>18.5</td>
+    <td>30.1</td>
+    <td>3.2</td>
+    <td>13.9</td>
+    <td>82.6</td>
+    <td>55.6</td>
+    <td>3.0</td>
+    <td>3.07</td>
+    <td>.904</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/zambonis20x20.jpg"></td>
+    <td>Zambonis</td>
+    <td>15.0</td>
+    <td>23.7</td>
+    <td>3.8</td>
+    <td>11.1</td>
+    <td>95.0</td>
+    <td>52.0</td>
+    <td>3.8</td>
+    <td>2.52</td>
+    <td>.915</td>
+    <td>13.7</td>
+    <td>23.9</td>
+    <td>2.3</td>
+    <td>12.7</td>
+    <td>101.4</td>
+    <td>52.8</td>
+    <td>3.5</td>
+    <td>2.59</td>
+    <td>.916</td>
+  </tr>
+  <tr>
+    <td colspan="2">Max</td>
+    <td>18.9</td>
+    <td>31.0</td>
+    <td>5.6</td>
+    <td>15.2</td>
+    <td>95.0</td>
+    <td>63.5</td>
+    <td>4.2</td>
+    <td>2.94</td>
+    <td>.920</td>
+    <td>22.7</td>
+    <td>31.2</td>
+    <td>7.2</td>
+    <td>16.4</td>
+    <td>101.4</td>
+    <td>65.0</td>
+    <td>4.9</td>
+    <td>3.14</td>
+    <td>.921</td>
+  </tr>
+  <tr>
+    <td colspan="2">Median</td>
+    <td>15.0</td>
+    <td>24.3</td>
+    <td>2.0</td>
+    <td>12.0</td>
+    <td>67.6</td>
+    <td>51.9</td>
+    <td>3.5</td>
+    <td>2.72</td>
+    <td>.914</td>
+    <td>16.0</td>
+    <td>27.1</td>
+    <td>2.3</td>
+    <td>12.7</td>
+    <td>70.2</td>
+    <td>53.3</td>
+    <td>3.4</td>
+    <td>2.87</td>
+    <td>.912</td>
+  </tr>
+  <tr>
+    <td colspan="2">Min</td>
+    <td>11.7</td>
+    <td>20.0</td>
+    <td>-2.9</td>
+    <td>7.7</td>
+    <td>53.6</td>
+    <td>48.1</td>
+    <td>2.5</td>
+    <td>2.52</td>
+    <td>.907</td>
+    <td>11.3</td>
+    <td>19.7</td>
+    <td>-4.9</td>
+    <td>8.1</td>
+    <td>56.2</td>
+    <td>44.0</td>
+    <td>2.6</td>
+    <td>2.59</td>
+    <td>.901</td>
+  </tr>
+</table>
+
+</div>
+<!-- End Week 20 -->
+
+<!-- Begin Week 15 -->
+<div id="wk15" class="rotoStats">
+
+<p class="wkMenu"><a href="javascript:switchTab('wk20');">Week 20</a> | Week 15 | <a href="javascript:switchTab('wk10');">Week 10</a></p>
+
+<table class="withGrid roto standings">
+  <tr class="head">
+    <td colspan="3" rowspan="2">Through Week 15 (12 wks)</td>
+    <td colspan="9">Percent chance of winning category</td>
+    <td rowspan="2">Total*<br>(# cats)</td>
+    <td rowspan="2">Wk 10</td>
+    <td rowspan="2">Change</td>
+    <td rowspan="2">Average**<br>(win%)</td>
+    <td rowspan="2">H2H%</td>
+    <td rowspan="2">Roto&ndash;H2H</td>
+  </tr>
+  <tr class="head">
+    <td>G</td>
+    <td>A</td>
+    <td>+/-</td>
+    <td>PPP</td>
+    <td>HIT</td>
+    <td>BLK</td>
+    <td>W</td>
+    <td>GAA</td>
+    <td>SV%</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td class="logoCell"><img src="images/ramblers_20.png"></td>
+    <td>Ramblers <span class="green">&#8593;</span></td>
+    <td>72</td>
+    <td>66</td>
+    <td>54</td>
+    <td>59</td>
+    <td>41</td>
+    <td>74</td>
+    <td>53</td>
+    <td>60</td>
+    <td>61</td>
+    <td>5.40</td>
+    <td>5.07</td>
+    <td><span class="green">+0.33</span></td>
+    <td>60</td>
+    <td>50</td>
+    <td>+10</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td class="logoCell"><img src="images/set-your-lineup_20.jpg"></td>
+    <td>Set Your Lineup <span class="red">&#8595;</span></td>
+    <td>65</td>
+    <td>67</td>
+    <td>41</td>
+    <td>78</td>
+    <td>46</td>
+    <td>52</td>
+    <td>61</td>
+    <td>64</td>
+    <td>64</td>
+    <td>5.37</td>
+    <td>5.56</td>
+    <td><span class="red">-0.19</span></td>
+    <td>60</td>
+    <td>63</td>
+    <td>-3</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td class="logoCell"><img src="images/blue_wings20x20.jpg"></td>
+    <td>Dallas Blue Wings <span class="green">&#8593;</span></td>
+    <td>70</td>
+    <td>80</td>
+    <td>68</td>
+    <td>71</td>
+    <td>45</td>
+    <td>33</td>
+    <td>57</td>
+    <td>47</td>
+    <td>50</td>
+    <td>5.21</td>
+    <td>4.99</td>
+    <td><span class="green">+0.22</span></td>
+    <td>58</td>
+    <td>57</td>
+    <td>+1</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td class="logoCell"><img src="images/zambonis20x20.jpg"></td>
+    <td>Zambonis</td>
+    <td>63</td>
+    <td>45</td>
+    <td>60</td>
+    <td>44</td>
+    <td>88</td>
+    <td>49</td>
+    <td>59</td>
+    <td>52</td>
+    <td>44</td>
+    <td>5.03</td>
+    <td>4.99</td>
+    <td><span class="green">+0.04</span></td>
+    <td>56</td>
+    <td>60</td>
+    <td>-4</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td class="logoCell"><img src="images/habs-suck2_20.jpg"></td>
+    <td>Habs Suck <span class="red">&#8595;</span></td>
+    <td>47</td>
+    <td>38</td>
+    <td>55</td>
+    <td>45</td>
+    <td>72</td>
+    <td>75</td>
+    <td>45</td>
+    <td>51</td>
+    <td>50</td>
+    <td>4.78</td>
+    <td>5.17</td>
+    <td><span class="red">-0.39</span></td>
+    <td>53</td>
+    <td>58</td>
+    <td>-5</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td class="logoCell"><img src="images/abominables_20.jpg"></td>
+    <td>Abominables</td>
+    <td>59</td>
+    <td>56</td>
+    <td>47</td>
+    <td>63</td>
+    <td>27</td>
+    <td>35</td>
+    <td>63</td>
+    <td>52</td>
+    <td>50</td>
+    <td>4.52</td>
+    <td>4.94</td>
+    <td><span class="red">-0.42</span></td>
+    <td>50</td>
+    <td>46</td>
+    <td>+4</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td class="logoCell"><img src="images/boysinblue_20.jpg"></td>
+    <td>ComeOnYouBoysInBlue</td>
+    <td>28</td>
+    <td>26</td>
+    <td>54</td>
+    <td>33</td>
+    <td>52</td>
+    <td>44</td>
+    <td>65</td>
+    <td>50</td>
+    <td>55</td>
+    <td>4.07</td>
+    <td>4.33</td>
+    <td><span class="red">-0.26</span></td>
+    <td>45</td>
+    <td>41</td>
+    <td>+4</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td class="logoCell"><img src="images/flames4ever_20.jpg"></td>
+    <td>FLAMES4EVER <span class="green">&#8593;</span></td>
+    <td>37</td>
+    <td>45</td>
+    <td>22</td>
+    <td>57</td>
+    <td>19</td>
+    <td>47</td>
+    <td>43</td>
+    <td>49</td>
+    <td>55</td>
+    <td>3.73</td>
+    <td>3.77</td>
+    <td><span class="red">-0.04</span></td>
+    <td>41</td>
+    <td>45</td>
+    <td>-4</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td class="logoCell"><img src="images/clowning_20.jpg"></td>
+    <td>Just Clowning Around <span class="red">&#8595;</span></td>
+    <td>34</td>
+    <td>36</td>
+    <td>43</td>
+    <td>31</td>
+    <td>53</td>
+    <td>51</td>
+    <td>30</td>
+    <td>36</td>
+    <td>35</td>
+    <td>3.49</td>
+    <td>3.83</td>
+    <td><span class="red">-0.34</span></td>
+    <td>39</td>
+    <td>38</td>
+    <td>+1</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td class="logoCell"><img src="images/mcdavid2_20.jpg"></td>
+    <td>Life With McDavid</td>
+    <td>26</td>
+    <td>41</td>
+    <td>56</td>
+    <td>19</td>
+    <td>58</td>
+    <td>40</td>
+    <td>24</td>
+    <td>38</td>
+    <td>36</td>
+    <td>3.38</td>
+    <td>2.35</td>
+    <td><span class="green">+1.03</span></td>
+    <td>38</td>
+    <td>42</td>
+    <td>-4</td>
+  </tr>
+</table>
+
+<table class="withGrid roto averages">
+  <tr class="head">
+    <td colspan="2" rowspan="2">Averages per Week<sup>&#8224;</sup></td>
+    <td colspan="9">Season</td>
+    <td colspan="9">Weeks 11 &ndash; 15</td>
+  </tr>
+  <tr class="head">
+    <td>G</td>
+    <td>A</td>
+    <td>+/-</td>
+    <td>PPP</td>
+    <td>HIT</td>
+    <td>BLK</td>
+    <td>W</td>
+    <td>GAA</td>
+    <td>SV%</td>
+    <td>G</td>
+    <td>A</td>
+    <td>+/-</td>
+    <td>PPP</td>
+    <td>HIT</td>
+    <td>BLK</td>
+    <td>W</td>
+    <td>GAA</td>
+    <td>SV%</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/abominables_20.jpg"></td>
+    <td>Abominables</td>
+    <td>15.3</td>
+    <td>26.0</td>
+    <td>1.5</td>
+    <td>13.6</td>
+    <td>54.9</td>
+    <td>46.6</td>
+    <td>4.0</td>
+    <td>2.56</td>
+    <td>.917</td>
+    <td>16.2</td>
+    <td>22.2</td>
+    <td>5.6</td>
+    <td>10.3</td>
+    <td>52.6</td>
+    <td>40.5</td>
+    <td>3.2</td>
+    <td>2.68</td>
+    <td>.915</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/boysinblue_20.jpg"></td>
+    <td>ComeOnYouBoysInBlue</td>
+    <td>11.4</td>
+    <td>20.1</td>
+    <td>3.2</td>
+    <td>9.0</td>
+    <td>64.9</td>
+    <td>50.2</td>
+    <td>4.2</td>
+    <td>2.59</td>
+    <td>.920</td>
+    <td>11.0</td>
+    <td>20.3</td>
+    <td>4.1</td>
+    <td>8.6</td>
+    <td>65.1</td>
+    <td>51.1</td>
+    <td>3.0</td>
+    <td>2.91</td>
+    <td>.913</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/blue_wings20x20.jpg"></td>
+    <td>Dallas Blue Wings</td>
+    <td>17.1</td>
+    <td>30.9</td>
+    <td>7.2</td>
+    <td>14.2</td>
+    <td>62.1</td>
+    <td>46.6</td>
+    <td>3.7</td>
+    <td>2.76</td>
+    <td>.913</td>
+    <td>17.2</td>
+    <td>31.3</td>
+    <td>12.3</td>
+    <td>14.2</td>
+    <td>70.3</td>
+    <td>44.6</td>
+    <td>3.2</td>
+    <td>2.88</td>
+    <td>.913</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/flames4ever_20.jpg"></td>
+    <td>FLAMES4EVER</td>
+    <td>12.3</td>
+    <td>23.5</td>
+    <td>-6.8</td>
+    <td>12.3</td>
+    <td>52.4</td>
+    <td>50.9</td>
+    <td>3.1</td>
+    <td>2.65</td>
+    <td>.918</td>
+    <td>10.3</td>
+    <td>26.5</td>
+    <td>-8.6</td>
+    <td>12.3</td>
+    <td>51.7</td>
+    <td>52.2</td>
+    <td>3.0</td>
+    <td>2.82</td>
+    <td>.912</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/habs-suck2_20.jpg"></td>
+    <td>Habs suck</td>
+    <td>13.6</td>
+    <td>22.3</td>
+    <td>3.3</td>
+    <td>10.5</td>
+    <td>75.5</td>
+    <td>62.3</td>
+    <td>3.2</td>
+    <td>2.69</td>
+    <td>.913</td>
+    <td>10.8</td>
+    <td>21.1</td>
+    <td>1.1</td>
+    <td>8.2</td>
+    <td>75.4</td>
+    <td>62.5</td>
+    <td>2.8</td>
+    <td>2.68</td>
+    <td>.913</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/clowning_20.jpg"></td>
+    <td>Just Clowning Around</td>
+    <td>11.9</td>
+    <td>21.6</td>
+    <td>-0.1</td>
+    <td>8.7</td>
+    <td>65.5</td>
+    <td>52.7</td>
+    <td>2.4</td>
+    <td>2.98</td>
+    <td>.905</td>
+    <td>12.1</td>
+    <td>19.2</td>
+    <td>3.0</td>
+    <td>8.2</td>
+    <td>62.1</td>
+    <td>47.6</td>
+    <td>2.2</td>
+    <td>3.28</td>
+    <td>.902</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/mcdavid2_20.jpg"></td>
+    <td>Life With McDavid</td>
+    <td>11.0</td>
+    <td>23.1</td>
+    <td>3.9</td>
+    <td>7.5</td>
+    <td>68.7</td>
+    <td>48.9</td>
+    <td>2.1</td>
+    <td>2.71</td>
+    <td>.911</td>
+    <td>11.0</td>
+    <td>25.2</td>
+    <td>11.4</td>
+    <td>7.3</td>
+    <td>70.5</td>
+    <td>50.9</td>
+    <td>3.4</td>
+    <td>2.17</td>
+    <td>.930</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/ramblers_20.png"></td>
+    <td>Ramblers</td>
+    <td>17.1</td>
+    <td>27.7</td>
+    <td>3.5</td>
+    <td>12.5</td>
+    <td>60.6</td>
+    <td>62.8</td>
+    <td>3.5</td>
+    <td>2.47</td>
+    <td>.922</td>
+    <td>18.8</td>
+    <td>26.9</td>
+    <td>3.2</td>
+    <td>13.4</td>
+    <td>68.1</td>
+    <td>64.4</td>
+    <td>4.1</td>
+    <td>2.37</td>
+    <td>.923</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/set-your-lineup_20.jpg"></td>
+    <td>Set Your Lineup</td>
+    <td>15.6</td>
+    <td>28.0</td>
+    <td>-0.3</td>
+    <td>15.8</td>
+    <td>62.5</td>
+    <td>52.7</td>
+    <td>3.9</td>
+    <td>2.34</td>
+    <td>.925</td>
+    <td>16.8</td>
+    <td>26.3</td>
+    <td>-1.7</td>
+    <td>16.2</td>
+    <td>64.7</td>
+    <td>52.8</td>
+    <td>3.2</td>
+    <td>2.35</td>
+    <td>.924</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/zambonis20x20.jpg"></td>
+    <td>Zambonis</td>
+    <td>15.6</td>
+    <td>23.6</td>
+    <td>4.5</td>
+    <td>10.3</td>
+    <td>91.9</td>
+    <td>51.5</td>
+    <td>3.9</td>
+    <td>2.49</td>
+    <td>.915</td>
+    <td>15.3</td>
+    <td>22.2</td>
+    <td>10.1</td>
+    <td>8.6</td>
+    <td>80.6</td>
+    <td>47.8</td>
+    <td>3.9</td>
+    <td>2.24</td>
+    <td>.925</td>
+  </tr>
+  <tr>
+    <td colspan="2">Max</td>
+    <td>17.1</td>
+    <td>30.9</td>
+    <td>7.2</td>
+    <td>15.8</td>
+    <td>91.9</td>
+    <td>62.8</td>
+    <td>4.2</td>
+    <td>2.98</td>
+    <td>.925</td>
+    <td>18.8</td>
+    <td>31.3</td>
+    <td>12.3</td>
+    <td>16.2</td>
+    <td>80.6</td>
+    <td>64.4</td>
+    <td>4.1</td>
+    <td>3.28</td>
+    <td>.930</td>
+  </tr>
+  <tr>
+    <td colspan="2">Median</td>
+    <td>14.4</td>
+    <td>23.6</td>
+    <td>3.2</td>
+    <td>11.4</td>
+    <td>63.7</td>
+    <td>51.2</td>
+    <td>3.6</td>
+    <td>2.62</td>
+    <td>.916</td>
+    <td>13.7</td>
+    <td>23.7</td>
+    <td>3.7</td>
+    <td>9.5</td>
+    <td>66.6</td>
+    <td>51.0</td>
+    <td>3.2</td>
+    <td>2.68</td>
+    <td>.914</td>
+  </tr>
+  <tr>
+    <td colspan="2">Min</td>
+    <td>11.0</td>
+    <td>20.1</td>
+    <td>-6.8</td>
+    <td>7.5</td>
+    <td>52.4</td>
+    <td>46.6</td>
+    <td>2.1</td>
+    <td>2.34</td>
+    <td>.905</td>
+    <td>10.3</td>
+    <td>19.2</td>
+    <td>-8.6</td>
+    <td>7.3</td>
+    <td>51.7</td>
+    <td>40.5</td>
+    <td>2.2</td>
+    <td>2.17</td>
+    <td>.902</td>
+  </tr>
+</table>
+
+</div>
+<!-- End Week 15 -->
+
+<!-- Begin Week 10 -->
+<div id="wk10" class="rotoStats">
+
+<p class="wkMenu"><a href="javascript:switchTab('wk20');">Week 20</a> | <a href="javascript:switchTab('wk15');">Week 15</a> | Week 10</p>
+
+<table class="withGrid roto standings">
+  <tr class="head">
+    <td colspan="3" rowspan="2">Through Week 10 (7 wks)</td>
+    <td colspan="9">Percent chance of winning category</td>
+    <td rowspan="2">Total*<br>(# cats)</td>
+    <td rowspan="2">2016-17</td>
+    <td rowspan="2">Change</td>
+    <td rowspan="2">Average**<br>(win%)</td>
+    <td rowspan="2">H2H%</td>
+    <td rowspan="2">Roto&ndash;H2H</td>
+  </tr>
+  <tr class="head">
+    <td>G</td>
+    <td>A</td>
+    <td>+/-</td>
+    <td>PPP</td>
+    <td>HIT</td>
+    <td>BLK</td>
+    <td>W</td>
+    <td>GAA</td>
+    <td>SV%</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td class="logoCell"><img src="images/set-your-lineup_20.jpg"></td>
+    <td>Set Your Lineup <span class="green">&#8593;</span></td>
+    <td>58</td>
+    <td>74</td>
+    <td>50</td>
+    <td>76</td>
+    <td>44</td>
+    <td>51</td>
+    <td>68</td>
+    <td>68</td>
+    <td>67</td>
+    <td>5.56</td>
+    <td>2.59</td>
+    <td><span class="green">+2.97</span></td>
+    <td>62</td>
+    <td>65</td>
+    <td>-3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td class="logoCell"><img src="images/habs-suck2_20.jpg"></td>
+    <td>Habs Suck</td>
+    <td>61</td>
+    <td>39</td>
+    <td>69</td>
+    <td>53</td>
+    <td>76</td>
+    <td>72</td>
+    <td>47</td>
+    <td>49</td>
+    <td>50</td>
+    <td>5.17</td>
+    <td>5.19</td>
+    <td><span class="red">-0.02</span></td>
+    <td>57</td>
+    <td>55</td>
+    <td>+2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td class="logoCell"><img src="images/ramblers_20.png"></td>
+    <td>Ramblers</td>
+    <td>65</td>
+    <td>68</td>
+    <td>60</td>
+    <td>54</td>
+    <td>29</td>
+    <td>75</td>
+    <td>41</td>
+    <td>54</td>
+    <td>62</td>
+    <td>5.07</td>
+    <td>5.18</td>
+    <td><span class="red">-0.11</span></td>
+    <td>56</td>
+    <td>47</td>
+    <td>+9</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td class="logoCell"><img src="images/zambonis20x20.jpg"></td>
+    <td>Zambonis <span class="red">&#8595;</span></td>
+    <td>63</td>
+    <td>47</td>
+    <td>49</td>
+    <td>48</td>
+    <td>95</td>
+    <td>55</td>
+    <td>56</td>
+    <td>46</td>
+    <td>39</td>
+    <td>4.99</td>
+    <td>5.43</td>
+    <td><span class="red">-0.44</span></td>
+    <td>55</td>
+    <td>60</td>
+    <td>-5</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td class="logoCell"><img src="images/blue_wings20x20.jpg"></td>
+    <td>Dallas Blue Wings <span class="red">&#8595;</span></td>
+    <td>69</td>
+    <td>81</td>
+    <td>64</td>
+    <td>68</td>
+    <td>31</td>
+    <td>33</td>
+    <td>61</td>
+    <td>45</td>
+    <td>48</td>
+    <td>4.99</td>
+    <td>5.18</td>
+    <td><span class="red">-0.19</span></td>
+    <td>55</td>
+    <td>56</td>
+    <td>-1</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td class="logoCell"><img src="images/abominables_20.jpg"></td>
+    <td>Abominables <span class="green">&#8593;</span></td>
+    <td>54</td>
+    <td>66</td>
+    <td>40</td>
+    <td>72</td>
+    <td>30</td>
+    <td>43</td>
+    <td>73</td>
+    <td>58</td>
+    <td>58</td>
+    <td>4.94</td>
+    <td>4.23</td>
+    <td><span class="green">+0.71</span></td>
+    <td>55</td>
+    <td>52</td>
+    <td>+3</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td class="logoCell"><img src="images/boysinblue_20.jpg"></td>
+    <td>ComeOnYouBoysInBlue <span class="red">&#8595;</span></td>
+    <td>27</td>
+    <td>20</td>
+    <td>59</td>
+    <td>31</td>
+    <td>55</td>
+    <td>39</td>
+    <td>77</td>
+    <td>60</td>
+    <td>64</td>
+    <td>4.33</td>
+    <td>4.68</td>
+    <td><span class="red">-0.35</span></td>
+    <td>48</td>
+    <td>40</td>
+    <td>+8</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td class="logoCell"><img src="images/clowning_20.jpg"></td>
+    <td>Just Clowning Around <span class="green">&#8593;</span></td>
+    <td>32</td>
+    <td>40</td>
+    <td>38</td>
+    <td>29</td>
+    <td>62</td>
+    <td>60</td>
+    <td>30</td>
+    <td>50</td>
+    <td>42</td>
+    <td>3.83</td>
+    <td>3.71</td>
+    <td><span class="green">+0.12</span></td>
+    <td>43</td>
+    <td>44</td>
+    <td>-1</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td class="logoCell"><img src="images/flames4ever_20.jpg"></td>
+    <td>FLAMES4EVER <span class="red">&#8595;</span></td>
+    <td>46</td>
+    <td>33</td>
+    <td>30</td>
+    <td>54</td>
+    <td>19</td>
+    <td>41</td>
+    <td>40</td>
+    <td>54</td>
+    <td>60</td>
+    <td>3.77</td>
+    <td>4.99</td>
+    <td><span class="red">-1.22</span></td>
+    <td>42</td>
+    <td>50</td>
+    <td>-8</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td class="logoCell"><img src="images/mcdavid2_20.jpg"></td>
+    <td>Life With McDavid <span class="red">&#8595;</span></td>
+    <td>25</td>
+    <td>31</td>
+    <td>42</td>
+    <td>15</td>
+    <td>59</td>
+    <td>31</td>
+    <td>7</td>
+    <td>16</td>
+    <td>10</td>
+    <td>2.35</td>
+    <td>3.82</td>
+    <td><span class="red">-1.47</span></td>
+    <td>26</td>
+    <td>33</td>
+    <td>-7</td>
+  </tr>
+</table>
+
+<table class="withGrid roto averages">
+  <tr class="head">
+    <td colspan="2" rowspan="2">Averages per Week</td>
+    <td colspan="9">Season</td>
+  </tr>
+  <tr class="head">
+    <td>G</td>
+    <td>A</td>
+    <td>+/-</td>
+    <td>PPP</td>
+    <td>HIT</td>
+    <td>BLK</td>
+    <td>W</td>
+    <td>GAA</td>
+    <td>SV%</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/abominables_20.jpg"></td>
+    <td>Abominables</td>
+    <td>14.7</td>
+    <td>28.6</td>
+    <td>-1.1</td>
+    <td>15.7</td>
+    <td>56.4</td>
+    <td>50.7</td>
+    <td>4.4</td>
+    <td>2.49</td>
+    <td>.919</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/boysinblue_20.jpg"></td>
+    <td>ComeOnYouBoysInBlue</td>
+    <td>11.7</td>
+    <td>20.0</td>
+    <td>2.6</td>
+    <td>9.3</td>
+    <td>64.9</td>
+    <td>49.6</td>
+    <td>5.0</td>
+    <td>2.41</td>
+    <td>.925</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/blue_wings20x20.jpg"></td>
+    <td>Dallas Blue Wings</td>
+    <td>17.0</td>
+    <td>30.7</td>
+    <td>3.9</td>
+    <td>14.1</td>
+    <td>56.7</td>
+    <td>48.0</td>
+    <td>4.0</td>
+    <td>2.70</td>
+    <td>.913</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/flames4ever_20.jpg"></td>
+    <td>FLAMES4EVER</td>
+    <td>13.6</td>
+    <td>21.6</td>
+    <td>-5.6</td>
+    <td>12.3</td>
+    <td>52.9</td>
+    <td>50.0</td>
+    <td>3.1</td>
+    <td>2.55</td>
+    <td>.921</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/habs-suck2_20.jpg"></td>
+    <td>Habs suck</td>
+    <td>15.4</td>
+    <td>23.1</td>
+    <td>4.7</td>
+    <td>12.0</td>
+    <td>75.6</td>
+    <td>62.1</td>
+    <td>3.4</td>
+    <td>2.70</td>
+    <td>.913</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/clowning_20.jpg"></td>
+    <td>Just Clowning Around</td>
+    <td>11.9</td>
+    <td>23.3</td>
+    <td>-2.1</td>
+    <td>9.0</td>
+    <td>67.9</td>
+    <td>56.0</td>
+    <td>2.6</td>
+    <td>2.74</td>
+    <td>.908</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/mcdavid2_20.jpg"></td>
+    <td>Life With McDavid</td>
+    <td>11.0</td>
+    <td>21.7</td>
+    <td>-1.1</td>
+    <td>7.6</td>
+    <td>67.6</td>
+    <td>47.6</td>
+    <td>1.3</td>
+    <td>3.30</td>
+    <td>.889</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/ramblers_20.png"></td>
+    <td>Ramblers</td>
+    <td>16.0</td>
+    <td>28.3</td>
+    <td>3.7</td>
+    <td>12.0</td>
+    <td>55.6</td>
+    <td>61.7</td>
+    <td>3.1</td>
+    <td>2.56</td>
+    <td>.921</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/set-your-lineup_20.jpg"></td>
+    <td>Set Your Lineup</td>
+    <td>14.9</td>
+    <td>29.1</td>
+    <td>0.7</td>
+    <td>15.6</td>
+    <td>61.1</td>
+    <td>52.6</td>
+    <td>4.3</td>
+    <td>2.34</td>
+    <td>.925</td>
+  </tr>
+  <tr>
+    <td class="logoCell"><img src="images/zambonis20x20.jpg"></td>
+    <td>Zambonis</td>
+    <td>15.9</td>
+    <td>24.6</td>
+    <td>0.7</td>
+    <td>11.4</td>
+    <td>99.4</td>
+    <td>54.0</td>
+    <td>3.9</td>
+    <td>2.66</td>
+    <td>.908</td>
+  </tr>
+  <tr>
+    <td colspan="2">Max</td>
+    <td>17.0</td>
+    <td>30.7</td>
+    <td>4.7</td>
+    <td>15.7</td>
+    <td>99.4</td>
+    <td>62.1</td>
+    <td>5.0</td>
+    <td>3.30</td>
+    <td>.925</td>
+  </tr>
+  <tr>
+    <td colspan="2">Median</td>
+    <td>14.8</td>
+    <td>23.9</td>
+    <td>0.7</td>
+    <td>12.0</td>
+    <td>63.0</td>
+    <td>51.6</td>
+    <td>3.6</td>
+    <td>2.61</td>
+    <td>.916</td>
+  </tr>
+  <tr>
+    <td colspan="2">Min</td>
+    <td>11.0</td>
+    <td>20.0</td>
+    <td>-5.6</td>
+    <td>7.6</td>
+    <td>52.9</td>
+    <td>47.6</td>
+    <td>1.3</td>
+    <td>2.34</td>
+    <td>.889</td>
+  </tr>
+</table>
+
+</div>
+<!-- End Week 10 -->
+
+<p><em>
+	* Values in the "total" column are calculated by summing a team's probabilities in each category as proportions (e.g., 0.5 rather than 50%). This value can be interpreted as the number of categories the team is expected to win per week.<br>
+	** Values in the "average" column are calculated by averaging a team's probabilities in each category. This value can be interpreted as the team's expected winning percentage. The columns to the right compare this figure to the team's actual winning percentage in our head-to-head standings.<br>
+	<sup>&#8224;</sup> Week 14, which had significantly fewer games than a typical week, is counted as 0.64 weeks for the purpose of these calculations.
+  <!-- Weeks 14 and 16 had a significantly different number of games than a typical week. They are counted as 0.64 and 1.72 weeks, respectively,  -->
+</em></p>
+
+</div>
+<!-- End Content -->
+
+</body>
+
+</html>

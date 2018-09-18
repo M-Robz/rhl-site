@@ -1,0 +1,13 @@
+﻿  off-season rosters '18
+  ownership:
+    √ add 15-16 to ss
+    √ add 16-17 to ss
+      add 17-18 to ss
+      upload to db
+      implement alooo web app
+√ standings
+√ awards
+√ franchise
+√ HP: draft picks
+√ voting: 17-18
+√ rules

@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head><meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>RHL Ownership History</title>
+<link rel="stylesheet" type="text/css" href="styles.css"><link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="banner.js"></script>
+</head>
+
+<body>
+
+<!-- Banner -->
+<script>writeBanner();</script>
+<!-- End Banner -->
+
+<!-- Content -->
+<div class="content">
+
+<p><i><font face="Georgia" size="5">RHL Keeper League<br>
+</font><b><font face="Georgia" size="6">Ownership History</font></b></i></p>
+<p>&nbsp;</p>
+
+<div class="insetBox">
+  <div class="searchTool">
+    Browse by manager:&nbsp;
+    <select data-criterion="owner">
+      <option value="default" selected></option>
+      <option value="Adam K.">Adam K.</option>
+      <option value="Andrew">Andrew</option>
+      <option value="Arno v.H.">Arno v.H.</option>
+      <option value="Ben R.">Ben R.</option>
+      <option value="Chris A.">Chris A.</option>
+      <option value="Chuck C.">Chuck C.</option>
+      <option value="Danny H.">Danny H.</option>
+      <option value="Dirk D.">Dirk D.</option>
+      <option value="Greg R.">Greg R.</option>
+      <option value="Harn T.">Harn T.</option>
+      <option value="Jen D.">Jen D.</option>
+      <option value="Joe R.">Joe R.</option>
+      <option value="Jon Y.">Jon Y.</option>
+      <option value="Matt I.">Matt I.</option>
+      <option value="Matt R.">Matt R.</option>
+      <option value="Mike R.">Mike R.</option>
+      <option value="Přemysl N.">Přemysl N.</option>
+      <option value="Rob">Rob</option>
+      <option value="Rudy M.">Rudy M.</option>
+      <option value="Ryan F.">Ryan F.</option>
+      <option value="Seth H.">Seth H.</option>
+      <option value="Tim F.">Tim F.</option>
+      <option value="Tony L.">Tony L.</option>
+      <option value="William G.">William G.</option>
+    </select>
+  </div>
+
+  <div class="searchTool">
+      Browse by last initial:&nbsp;
+    <form data-criterion="linit">
+      <input type="search" size="1" maxlength="1">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <div class="searchTool">
+    <form data-criterion="lname">
+      Search within last name:&nbsp;
+      <input type="search" size="10">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+<div id="tableContainer">
+  <p class="key">* Won championship</p>
+  <table id="serverResponse" class="noGrid scroll-x scroll-alert"></table>
+</div>
+
+</div>
+<!-- End Content -->
+
+</body>
+
+</html>

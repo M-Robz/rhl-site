@@ -1,0 +1,12 @@
+BANNER
+overlay: 161B68
+logo border: FFFFFF
+normal main menu: 161B68
+hover main menu: EEEEEE
+normal sub menu: 434995
+hover sub menu: EEEEEE
+
+CONTENT
+background: F6F6F6
+home page heading: 5D5F7E
+home page gradient: DDDDDD

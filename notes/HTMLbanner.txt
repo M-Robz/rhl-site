@@ -1,0 +1,90 @@
+<!-- Banner Container -->
+<div id="banContainer">
+
+<!-- Background Image -->
+<div id="banImg">
+	<img src="images/blue_wings96x96.jpg" style="left:33px;" title="Durham Blue Wings" />
+	<img src="images/flyer100x100.gif" style="left:114px;" title="Flyer Power" />
+	<img src="images/foggybottoms100x100.jpg" style="left:195px;" title="Foggy Bottoms" />
+	<img src="images/hittheice100x100.jpg" style="left:276px;" title="Hit the Ice" />
+	<img src="images/iheart100x100.gif" style="left:357px;" title="KC Penvalanche" />
+	<img src="images/os100x100.jpg" style="left:593px;" title="Original Sex" />
+	<img src="images/sonyeriksson96x96.jpg" style="left:674px;" title="Sony Eriksson" />
+	<img src="images/ff100x100.jpg" style="left:755px;" title="Tebow on ICE" />
+	<img src="images/vs2_100x100.gif" style="left:836px;" title="Victorious Secret" />
+	<img src="images/zambonis100x100.jpg" style="left:917px;" title="Zambonis" />
+</div>
+<!-- End Background Image -->
+
+<!-- Navigation Menu -->
+<div id="navMenuContainer">
+<ul id="navMenu">
+	<li style="width:90px;">
+		<a href="">Home</a>
+	</li>
+	<li style="width:90px;" onmouseover="menuOpen('history')" onmouseout="menuClose()">
+		<a href="">History</a>
+		<div id="history">
+			<a>Standings</a>
+			<a>Awards</a>
+			<a>Ownership</a>
+		</div>
+	</li>
+	<li style="width:90px;" href="">
+		<a>Rules</a>
+	</li>
+	<li style="width:127px;" onmouseover="menuOpen('roto')" onmouseout="menuClose()">
+		<a href="">Roto Standings</a>
+		<div id="roto">
+			<a>2011-12</a>
+			<a>2010-11</a>
+			<a>2009-10</a>
+			<a>2008-09</a>
+		</div>
+	</li>
+	<li style="width:107px;" onmouseover="menuOpen('board')" onmouseout="menuClose()">
+		<a href="">Draft Board</a>
+		<div id="board">
+			<a>2011-12</a>
+			<a>2010-11</a>
+			<a>2009-10</a>
+		</div>
+	</li>
+	<li style="width:90px;" onmouseover="menuOpen('keepers')" onmouseout="menuClose()">
+		<a>Keepers</a>
+		<div id="keepers">
+			<a>2011-12</a>
+			<a>2010-11</a>
+			<a>2009-10</a>
+		</div>
+	</li>
+	<li style="width:112px;" onmouseover="menuOpen('results')" onmouseout="menuClose()">
+		<a>Draft Results</a>
+		<div id="results">
+			<a>2011-12</a>
+			<a>2010-11</a>
+			<a>2009-10</a>
+			<a>2008-09</a>
+		</div>
+	</li>
+	<li style="width:154px;" onmouseover="menuOpen('rosters')" onmouseout="menuClose()">
+		<a>Off-Season Rosters</a>
+		<div id="rosters">
+			<a>2011-12</a>
+			<a>2009-10</a>
+			<a>2008-09</a>
+		</div>
+	</li>
+	<li style="width:130px;" onmouseover="menuOpen('utilities')" onmouseout="menuClose()">
+		<a>Utilities</a>
+		<div id="utilities">
+			<a>Salary Retriever</a>
+			<a>Extension Penalty Demo</a>
+		</div>
+	</li>
+</ul>
+</div>
+<!-- End Navigation Menu -->
+
+</div>
+<!-- End Banner Container -->
