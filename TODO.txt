@@ -1,4 +1,4 @@
-﻿  off-season rosters '18
+﻿√ off-season rosters '18
   ownership:
     √ add 15-16 to ss
     √ add 16-17 to ss
